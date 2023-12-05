@@ -1,0 +1,40 @@
+/* ------------------------- */
+/* Centering the Div */ 
+/* ------------------------- */
+
+.bigcontainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+#exercise-one-container-one, #exercise-one-container-two {
+    background: lightslategray;
+    border: 4px solid midnightblue;
+    width: 400px;
+    height: 300px;
+  }
+
+#exercise-one-container-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+#exercise-one-box-one, #exercise-one-box-two {
+    font-weight: bold;
+    text-align: center;
+    border: 6px solid black;
+    width: 80px;
+    height: 80px;
+  }
+
+#exercise-one-box-one {
+    background: yellow;
+}
+
+#exercise-one-box-two {
+    background: lightgreen;
+}
+
+/* ------------------------- */
+/* Creating a Basic Header */ 
+/* ------------------------- */
